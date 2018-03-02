@@ -1,0 +1,5 @@
+Deze python-module bevat een Mailman3-plugin met SJB-specifieke toevoegingen.
+Huidige content:
+ - SJBStyle, default style voor nieuwe lijsten met goede configuratie
+
+De module zit automatisch in het python3.6 path vanwege een symlink in 
