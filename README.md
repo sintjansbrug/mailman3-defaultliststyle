@@ -7,6 +7,10 @@ Huidige content:
 
 De module zit automatisch in het python3.6 path vanwege een symlink in /usr/local/lib/python3.6/site-packages/ naar deze repo.
 
+### Vereisten
+
+* Mailman 3.2.0a1, draaiend op python3.6
+
 ### Installatieprocedure
 Om te installeren, volg de volgende stappen:
 
@@ -19,7 +23,7 @@ Om te installeren, volg de volgende stappen:
       # Imports SJB-plugin
       [plugin.sjb-mailman3]
       class: sjb-mailman3.plugin.SJBMM3Plugin
-      enabled: yes1
+      enabled: yes
       ```
       Om de lijst default ook te gebruiken:
       ```
