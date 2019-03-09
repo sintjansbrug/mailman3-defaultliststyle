@@ -33,4 +33,5 @@ class SJBDefaultStyle(Identity, BasicOperation, Bounces, Public, Discussion, Mod
         mlist.advertised = False # so list doesnt show up when not logged in
         mlist.default_member_action = Action.accept # member posts are accepted immediately
         mlist.default_nonmember_action = Action.defer # nonmember posts receive additional checks
-        mlist.subscription_policy = SubscriptionPolicy.moderate # moderator must approve subscription
+        mlist.subscription_policy = SubscriptionPolicy.confirm # moderator must approve subscription
+        mlist.admin_notify_mchanges = True
