@@ -1,6 +1,6 @@
 from mailman.core.i18n import _
 from mailman.interfaces.action import Action
-from mailman.interfaces.mailinglist import (ReplyToMunging, SubscriptionPolicy)
+from mailman.interfaces.mailinglist import (ReplyToMunging, SubscriptionPolicy, DMARCMitigateAction)
 from mailman.interfaces.styles import IStyle
 from mailman.styles.base import (
     Announcement, BasicOperation, Bounces, Discussion, Identity, Moderation,
@@ -35,3 +35,4 @@ class SJBDefaultStyle(Identity, BasicOperation, Bounces, Public, Discussion, Mod
         mlist.default_nonmember_action = Action.accept # nonmember posts are accepted immediately
         mlist.subscription_policy = SubscriptionPolicy.open # Subscribing members requires no additional checks
         mlist.admin_notify_mchanges = True # Changes to subscriptions are mailed to list admin
+        mlist.dmarc_mitigate_action = DMARCMitigateAction.munge_from
