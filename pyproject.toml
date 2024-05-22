@@ -1,0 +1,7 @@
+[project]
+name = "SJB_Mailman_plugin"
+version = "0.1.0"
+
+dependencies = [
+    "mailman >= 3.2.0",
+]
