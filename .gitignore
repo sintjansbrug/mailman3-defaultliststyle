@@ -2,3 +2,6 @@ __pycache__/
 styles/__pycache__/
 build/
 SJB_Mailman_plugin.egg-info/
+
+venv/
+.venv/
