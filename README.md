@@ -10,7 +10,7 @@ Huidige content:
 Geen, worden automatisch geïnstalleerd.
 
 ### Installatieprocedure
-1. `git clone git@github.com:sintjansbrug/mailman3-defaultliststyle.git`
+1. `git clone https://github.com/sintjansbrug/mailman3-defaultliststyle.git`
 2. `cd mailman3-defaultliststyle`
 3. `pip install .`
 
