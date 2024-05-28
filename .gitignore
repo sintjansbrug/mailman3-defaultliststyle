@@ -1,7 +1,8 @@
 __pycache__/
-styles/__pycache__/
+
+# JR: Build directories
 build/
-SJB_Mailman_plugin.egg-info/
+sjb_mailman3.egg-info/
 
 venv/
 .venv/

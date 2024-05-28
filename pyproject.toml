@@ -1,6 +1,14 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+
+
 [project]
-name = "SJB_Mailman_plugin"
+name = "sjb_mailman3"
 version = "0.1.0"
+requires-python = ">= 3.6"
 
 dependencies = [
     "mailman >= 3.2.0",
